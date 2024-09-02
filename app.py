@@ -44,7 +44,6 @@ def handle_user_input(user_question):
 
 
 def main():
-    load_dotenv()
     st.set_page_config(page_title='InsightVault', page_icon=":books:", layout='wide')
 
     if "insight_vault_conversation" not in st.session_state:
