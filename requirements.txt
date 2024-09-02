@@ -3,3 +3,7 @@ PyPDF2
 langchain_community
 openai
 faiss-cpu
+streamlit
+tiktoken
+numpy
+requests
