@@ -7,8 +7,9 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
+import os
 
-OPENAI_API_KEY= "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"
+os.environ["OPENAI_API_KEY"] = "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"
 def extract_text_from_pdfs(pdf_docs):
     text = ''
     for pdf in pdf_docs:
