@@ -9,7 +9,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 def extract_text_from_pdfs(pdf_docs):
     text = ''
     for pdf in pdf_docs:
